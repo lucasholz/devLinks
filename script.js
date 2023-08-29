@@ -4,16 +4,16 @@ function toggleMode() {
 
   const img = document.querySelector("#profile img")
   if (html.classList.contains("light")) {
-    img.setAttribute("src", "./assets/avatar-light.png")
+    img.setAttribute("src", "./assets/avatar-light.jpg")
     img.setAttribute(
       "alt",
-      "Foto de Mayk Brito sorrindo, usando óculos escuros e casaco preta, barba e fundo azul"
+      "Foto de Lucas Holz sorrindo, usando óculos escuros e casaco preta, barba e no fundo o céu azul"
     )
   } else {
-    img.setAttribute("src", "./assets/avatar.png")
+    img.setAttribute("src", "./assets/avatar.jpg")
     img.setAttribute(
       "alt",
-      "Foto de Mayk Brito sorrindo, usando óculos e camisa preta, barba e fundo amarelo"
+      "Foto de Lucas Holz sorrindo, usando óculos e camisa preta, barba e fundo branco"
     )
   }
 }

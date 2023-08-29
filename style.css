@@ -49,6 +49,8 @@ body * {
 
 #profile img {
   width: 112px;
+  border: 1px solid var(--stroke-color);
+  border-radius: 50%;
 }
 
 #profile p {
@@ -165,6 +167,10 @@ footer {
   padding: 24px 0;
   text-align: center;
   font-size: 14px;
+}
+
+.light footer {
+  font-weight: 500;
 }
 
 @media (min-width: 700px) {
